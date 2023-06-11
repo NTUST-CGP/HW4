@@ -37,7 +37,7 @@ Once installed, you can run the executable and enjoy your gameplay.
 
 ### AI
 - [x] Paroling. (5)
-- [ ] When it sees the player it attacks. (5)
+- [x] When it sees the player it attacks. (5)
 - [ ] Random spawning. (5)
 - [x] Billboard HP bar. (4)
 - [ ] Effects when hurt. (3)
@@ -57,4 +57,4 @@ Once installed, you can run the executable and enjoy your gameplay.
 - [x] Fancy Levels different from default ones. (4)
 - [x] Customizable Background music. (4) 
 
-Expected grade: 44.
+Expected grade: 62.

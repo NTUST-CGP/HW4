@@ -36,12 +36,12 @@ Once installed, you can run the executable and enjoy your gameplay.
 - [ ] HUD displays the remaining armour count. (4)
 
 ### AI
-- [ ] Paroling. (5)
+- [x] Paroling. (5)
 - [ ] When it sees the player it attacks. (5)
 - [ ] Random spawning. (5)
-- [ ] Billboard HP bar. (4)
+- [x] Billboard HP bar. (4)
 - [ ] Effects when hurt. (3)
-- [ ] Effects when dead. (4)
+- [x] Effects when dead. (4)
 
 ### Items
 - [ ] Can pick up items. (4)

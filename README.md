@@ -24,8 +24,8 @@ Once installed, you can run the executable and enjoy your gameplay.
 ### Player
 - [x] The player can sprint, walk, and crouch. (6)
 - [ ] There are another weapon or hand grenade. (8)
-- [ ] There are HP bar in HUD and it is working. (4)
-- [ ] There is some display when the player is hurt. (4)
+- [x] There are HP bar in HUD and it is working. (4)
+- [x] There is some effect when the player is hurt. (4) (not visual, but sound)
 
 ### Shooting
 - [x] The gun shoots. (2)
@@ -50,11 +50,11 @@ Once installed, you can run the executable and enjoy your gameplay.
 ### UI
 - [x] Minimap. (4)
 - [x] Start Scene. (4)
-- [ ] Win/Lose Scene. (4)
+- [x] Win/Lose Scene. (4) (not implemented the button behaviour)
 - [x] Can change volume ingame. (4) 
 
 ### Levels
 - [x] Fancy Levels different from default ones. (4)
 - [x] Customizable Background music. (4) 
 
-Expected grade: 32.
+Expected grade: 44.

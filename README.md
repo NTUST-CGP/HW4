@@ -17,6 +17,7 @@ Once installed, you can run the executable and enjoy your gameplay.
 - `LClick` to shoot
 - `Rclick` to aim (not yet implemented).
 - `P` or `Esc` (not implemented) to pause.
+- `F` to harm yourself, in case you want to do so.
 
 # Implemented Features
 
@@ -35,7 +36,7 @@ Once installed, you can run the executable and enjoy your gameplay.
 - [ ] HUD displays the remaining armour count. (4)
 
 ### AI
-- [x] Paroling. (5)
+- [ ] Paroling. (5)
 - [ ] When it sees the player it attacks. (5)
 - [ ] Random spawning. (5)
 - [ ] Billboard HP bar. (4)
@@ -56,4 +57,4 @@ Once installed, you can run the executable and enjoy your gameplay.
 - [x] Fancy Levels different from default ones. (4)
 - [x] Customizable Background music. (4) 
 
-Expected grade: 
+Expected grade: 32.

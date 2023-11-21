@@ -1,45 +1,60 @@
-## **User manual**
----
+# First Person Shooter Game
+
+# Install and Compilation
+
+If you are using Windows, there is a precompiled executable at `./executable`.
+Else, you should Open the Unreal project and build your own from `./project`.
+
+# Run
+
+Once installed, you can run the executable and enjoy your gameplay.
+
 ### Controls
-#### Run
-* Press `Run` to run / stop the train
-* Press `ArcLength` to use / unuse Arc Length Parameterization
-* Scroll `speed` to change the run speed of train
-* Choose `Linear`/`Cardinal Cubic`/`Cubic B-Spline` in Spline Type groupbox to switch the track mode
-* Scroll `scale` in Cardinal Cubic mode to change the tension of curve
-#### View
-* Hold down `right button of mouse` to move the camera view
-* Press `WASD` to move the camera position
-* Scroll the mouse wheel to zoom in / out.
-* Press `World`/`Train`/`Top` to switch camera view to world / train / top view
-#### Control point
-* Hold down `left button of mouse` on control point to move control point in x-axis and z-axis
-* Hold down `left button of mouse` + `ctrl` on control point to move control point in y-axis
-* Press 'Add Point' / 'Delete Point' to add / delete control point
-* Press `R+X`/`R-X`/`R+Z`/`R-Z` to rotate control point
-* Press `Reset` to reset control point
-#### Lighting
-* Press `Light On` to close / open the sunlight
+- WASD to move.
+- Hold `LShift` to sprint.
+- Hold `LCtrl` or `C` to crouch.
+- `Space` to jump.
+- `LClick` to shoot
+- `Rclick` to aim (not yet implemented).
+- `P` or `Esc` (not implemented) to pause.
+- `F` to harm yourself, in case you want to do so.
 
-## **Technology**
----
-### **TrainView**
-    Set eye transform to position of train plus offset.
-![image](https://hackmd.io/_uploads/B1DRN75Np.png)
-### **Track**
-*     cardinal
-    *     tension
-*     b-spline
-*     linear
-*     parallel rails
-*     rail ties
-*     arc length parameterization
-### **Train**
-*     speed
-*     orientation
-*     
-### **Load Model**
-1.     Use assimp library to read *.obj file.
-2.     
-### **Lighting**
+# Implemented Features
 
+### Player
+- [x] The player can sprint, walk, and crouch. (6)
+- [ ] There are another weapon or hand grenade. (8)
+- [x] There are HP bar in HUD and it is working. (4)
+- [x] There is some effect when the player is hurt. (4) (not visual, but sound)
+
+### Shooting
+- [x] The gun shoots. (2)
+- [x] The gun spits visual and sound effect when shooting. (4)
+- [ ] There is aiming possible. (4)
+- [x] There is effect when the bullet hits. (4)
+- [ ] The reloading effect. (4)
+- [ ] HUD displays the remaining armour count. (4)
+
+### AI
+- [x] Paroling. (5)
+- [x] When it sees the player it attacks. (5)
+- [ ] Random spawning. (5)
+- [x] Billboard HP bar. (4)
+- [ ] Effects when hurt. (3)
+- [x] Effects when dead. (4)
+
+### Items
+- [ ] Can pick up items. (4)
+- [ ] Have visual and sound effect when pickup. (4)
+
+### UI
+- [x] Minimap. (4)
+- [x] Start Scene. (4)
+- [x] Win/Lose Scene. (4) (not implemented the button behaviour)
+- [x] Can change volume ingame. (4) 
+
+### Levels
+- [x] Fancy Levels different from default ones. (4)
+- [x] Customizable Background music. (4) 
+
+Expected grade: 62.
